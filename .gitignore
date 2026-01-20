@@ -1,0 +1,40 @@
+
+# Ignore file geodatabases anywhere
+**/*.gdb/
+
+# Ignore geodatabase lock files anywhere (extra safety)
+**/*.lock
+**/*.sr.lock
+
+# Ignore ArcGIS import logs anywhere
+**/ImportLog/
+
+# ArcGIS Pro backups (optional)
+**/*.aprx
+**/*.atbx
+**/*.aprx~
+**/*.atbx~
+
+# --- ArcGIS / GIS junk ---
+**/*.lock
+**/*.sr.lock
+**/*.tmp
+**/*.bak
+
+# File geodatabases (folders)
+**/*.gdb-lock/
+
+# Geoprocessing / caches
+**/*scratch*
+**/*Scratch*
+**/*cache*
+**/*Cache*
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
